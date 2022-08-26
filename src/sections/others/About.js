@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Span } from "../../components/Core";
-import imgPhoto from "../../assets/image/jpg/portfolio-about.jpg";
-import imgSignLight from "../../assets/image/png/signature.png";
+import imgPhoto from "../../assets/image/new/personal/portrait-about.jpeg";
+import imgSignLight from "../../assets/image/new/personal/sign.png";
 
 const LinkSocial = styled.a`
   color: ${({ theme }) => theme.colors.light} !important;
@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
+                  Ferrari Tran
                 </Title>
                 <Text
                   color="light"
@@ -42,8 +42,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  UX Designer based in New York, USA. I am designing with a
-                  minimal and beautiful design in mind.
+                  I'm front-end developer and UX/UI designer in Vietnam. Attention to detail is my working principle.
                 </Text>
                 <Text color="light" className="mt-4">
                   I strive for a minimal and beautiful design.
@@ -53,54 +52,38 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
 
                   <Text variant="p">
                     <a
-                      href="mailto:hello@folio.com"
+                      href="mailto:ferrari.thuytran@gmail.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">hello@folio.com</Span>
+                      <Span color="light">ferrari.thuytran@gmail.com</Span>
                     </a>
                   </Text>
                 </div>
                 <div className="mt-5">
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
                 </div>
-                <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
-                </Text>
-                <Text color="light" variant="small">
+                {/* <Text color="light" className="mt-3 font-weight-bold">
+                  Ferrari Tran
+                </Text> */}
+                {/* <Text color="light" variant="small">
                   Founder of Folio Digital
-                </Text>
+                </Text> */}
                 <div className="mt-5 d-flex">
                   <LinkSocial
-                    href="https://www.dribbble.com"
+                    href="https://dribbble.com/ferrari-tran"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
-                    Dribble
+                    Dribbble
                   </LinkSocial>
                   <LinkSocial
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className=" mr-3"
-                  >
-                    Twitter
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Facebook
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.instagram.com"
+                    href="https://www.linkedin.com/in/thuy-tran-phuong/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-weight-bold"
                   >
-                    Instagram
+                    Linkedin
                   </LinkSocial>
                 </div>
               </div>

@@ -25,7 +25,7 @@ const CTA = () => {
                     gContext.toggleContact();
                   }}
                 >
-                  Let's Talk Now
+                  Contact me now!
                 </ButtonIcon>
               </div>
             </Col>

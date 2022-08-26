@@ -244,7 +244,7 @@ const Header = ({ isDark }) => {
                   className="navbar-nav d-none d-lg-flex"
                   dark={isDark ? 1 : 0}
                 >
-                  {menuItems.map(
+                  {/* {menuItems.map(
                     (
                       { label, isExternal = false, name, items, ...rest },
                       index
@@ -431,7 +431,7 @@ const Header = ({ isDark }) => {
                         </React.Fragment>
                       );
                     }
-                  )}
+                  )} */}
 
                   {/* Open about modal */}
                   <li className="nav-item">
@@ -460,7 +460,7 @@ const Header = ({ isDark }) => {
                       contact.
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       className="nav-link"
                       href="https://uxtheme.net/theme-support"
@@ -468,7 +468,7 @@ const Header = ({ isDark }) => {
                     >
                       support
                     </a>
-                  </li>
+                  </li> */}
                 </Menu>
               </div>
             </div>

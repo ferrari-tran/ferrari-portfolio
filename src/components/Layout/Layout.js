@@ -22,7 +22,7 @@ import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
 
-import imgFavicon from "../../assets/favicon.png";
+import imgFavicon from "../../assets/image/new/personal/fav.png";
 
 import "../../assets/fonts/icon-font/fonts/avasta.ttf";
 import "../../assets/fonts/icon-font/fonts/Grayic.ttf";
@@ -140,7 +140,7 @@ const Layout = ({ children, pageContext }) => {
         <ThemeSwitch />
         <GlobalStyle />
         <Helmet>
-          <title>Folio</title>
+          <title>Ferrari's Portfolio</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>

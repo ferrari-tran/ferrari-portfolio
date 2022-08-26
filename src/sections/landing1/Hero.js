@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 import { device } from "../../utils";
-import imgL from "../../assets/image/png/portrait-1.png";
+import imgL from "../../assets/image/png/portrait-3.png";
 
 const ImgRight = styled.img`
   max-width: 100%;
@@ -28,7 +28,7 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER
+                  FRONT-END DEVELOPER, UX/UI DESIGNER
                 </Text>
                 <Title variant="hero">
                   I design digital crafts for clients.

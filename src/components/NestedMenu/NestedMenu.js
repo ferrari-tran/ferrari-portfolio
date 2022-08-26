@@ -180,14 +180,14 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
   return (
     <NestedMenuContainer>
       <ListGroup variant="flush">
-        {menuItems.map((menuItem, index) => (
+        {/* {menuItems.map((menuItem, index) => (
           <MenuItem
             key={`${menuItem.name}${index}`}
             depthStep={20}
             depth={0}
             {...menuItem}
           />
-        ))}
+        ))} */}
 
         {/* Open about modal */}
         <ListGroup.Item
