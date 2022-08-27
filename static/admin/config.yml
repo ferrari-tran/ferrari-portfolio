@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
+  repo: ferrari-tran/ferrari-portfolio
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
