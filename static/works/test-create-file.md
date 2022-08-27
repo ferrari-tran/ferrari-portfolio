@@ -1,5 +1,5 @@
 ---
-featuredimage: /uploads/nasa-q1p7bh3shj8-unsplash.jpeg
+featuredimage: /uploads/carbon.png
 title: Test create file
 authorName: Admin
 description: Now that you have your Netlify CMS files in place and configured,
